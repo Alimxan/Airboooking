@@ -1,0 +1,62 @@
+.header{
+    min-height: 100px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.header-nav{
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.header-nav-logo{
+    span{
+        color: red;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif   ;
+    }
+    p{
+            font-size:  5px;
+            color: #474747  ;
+            font-family: Arial, Helvetica, sans-serif ;
+    }
+}
+.header-nav-list{
+    margin-left: 20px;
+    a{
+        img{
+            padding: 5px;
+        }
+    }
+}
+
+.header-nav-content{
+    align-items: center;
+    span{
+        font-family: "PTSans";
+        font-size: 28px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #474747;
+        font-weight: 400;
+        padding: 40px;
+    }
+    img{
+        padding: 0px 15px 0px 15px;
+        padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    }
+    a{
+        display: inline-block;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #d34272;
+        font-weight: 400;
+        text-decoration: double;
+    }
+}

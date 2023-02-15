@@ -1,0 +1,27 @@
+.section{
+    height: 80px;
+}
+.section-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.section-block-text{
+    span{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.section-block-text2{
+    span{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    span:nth-child(2){
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+    }
+}

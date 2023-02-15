@@ -1,0 +1,17 @@
+@import "header";
+@import "content";
+@import "flat";
+@import "footer";
+@import "main-footer";
+@import "customers";
+@import "Newsletter";
+@import "section";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
